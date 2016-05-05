@@ -1,0 +1,5 @@
+module FastCGI [system] {
+    header "/usr/include/fcgi_stdio.h"
+    link "fcgi"
+    export *
+}
